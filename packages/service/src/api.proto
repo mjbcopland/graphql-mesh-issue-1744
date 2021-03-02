@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+service Service {
+  rpc getObject(Input) returns (Object) {}
+}
+
+enum Value { UNKNOWN = 0; }
+
+message Input { string throw = 1; }
+message Object { Value value = 1; }

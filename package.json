@@ -1,0 +1,8 @@
+{
+  "name": "graphql-mesh-internal-enums",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

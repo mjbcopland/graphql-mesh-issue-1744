@@ -1,0 +1,11 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/server"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.2.8",
+    "@grpc/proto-loader": "^0.5.6"
+  }
+}
