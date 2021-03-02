@@ -4,5 +4,12 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "patch-package": "^6.4.4",
+    "postinstall-postinstall": "^2.1.0"
+  }
 }
